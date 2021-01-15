@@ -11,7 +11,7 @@ app.use(cors())
 
 
 app.get('/home', (req, res) => {
-    let datum = {'id': 10, 'name': 'Jane Repollo'};
+    let datum = {'id': 10, 'name': 'Jane Repollo', 'age': 21};
     let data = JSON.stringify(datum);
     res.end(data);
 })
